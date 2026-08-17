@@ -1,0 +1,230 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-padding-top: 90px;
+}
+.first{
+    height: 70px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgb(139, 137, 137);
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+    width: 100%;
+    left: 0px;
+}
+ul {
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+ul li:hover {
+    border-bottom: 3px solid blueviolet;
+}
+ul li.active {
+    border-bottom: 3px solid blueviolet;
+}
+/* //second-sec// */
+
+
+.col-lg-3 span {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 39px;
+    font-weight: bold;
+    padding-top: 88px;
+    color: blueviolet;
+}
+.second-sec h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+.second-sec h1  {
+    color: blueviolet;
+    margin-top: 10%;
+}
+.second-sec p {
+    color: rgb(121, 119, 119);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#button {
+    border: none;
+    text-align: center;
+    margin-left: 37%;
+    background-color: blueviolet;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 26px;
+    color: white;
+}
+.button {
+    border-radius: 26px;
+    margin-top: 10px;
+    padding: 11px;
+    text-align: center;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+.button:hover {
+    padding: 13px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.about {
+    padding-top: 15%;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 40%;
+    cursor: pointer;
+    padding-bottom: 7%;
+}
+.about:hover{
+    border-bottom: blueviolet;
+}
+.box1 {
+    height: 300px;
+    color: white;
+    /* text-align: center; */
+  
+}
+.box-above h1 {
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.box-above {
+    box-shadow: 0 0 10px rgb(84, 83, 83);
+    text-align: center;
+      border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: rgb(134, 68, 196);
+    height: 50%;
+}
+.box-below {
+    height: 48%;
+    color: black;
+    background-color: whitesmoke;
+}
+.box-below p {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.Skills {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Projects-section */
+
+.Projects {
+    padding-top: 20%;
+    padding-bottom: 8%;
+    text-align: center;
+    font-weight: bold;
+}
+.below1 {
+    background-color: whitesmoke;
+}
+.card-body h5 {
+    font-weight: 700;
+}
+.card-body p {
+    font-size: 12px;
+    color: rgb(97, 95, 95);
+}
+.About{
+    padding-top: 20%;
+    padding-bottom: 8%;
+    text-align: center;
+    font-weight: bold;
+}
+.footer p {
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+}
+.footer h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.boxes1 {
+    background-color: rgb(251, 245, 245);
+    padding: 7px;
+    border-radius: 10px;
+}.boxes2 {
+    border-radius: 10px;
+    background-color: rgb(251, 245, 245);
+    padding: 10px;
+}.boxes3 {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(251, 245, 245);
+}
+.boxes1 img {
+    width: 60px;
+    background-color: white;
+    border-radius: 100%;
+}.boxes2 img {
+    border-radius: 100%;
+    width: 40px;
+    background-color: white;
+}.boxes3 img {
+    border-radius: 100%;
+    background-color: white;
+    width: 40px;
+}
+.submit-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 0 5px rgb(239, 238, 238);
+}
+.submit-form input {
+    cursor: pointer;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: 2px solid rgb(199, 197, 197);
+}
+.submit-form textarea {
+    width: 90%;
+     border-radius: 5px;
+    font-size: 13px;
+    padding: 10px;
+    height: 110px;
+    border: 2px solid rgb(199, 197, 197);
+    cursor: pointer;
+}
+.submit-form button {
+     width: 90%;
+     border: none;
+     color: white;
+     border-radius: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.card img {
+    opacity: 0.3;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.card img:hover {
+    opacity: 1;
+     transform: scale(1.1);
+        transition: transform 0.2s ease;
+}
